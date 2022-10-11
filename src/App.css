@@ -4,6 +4,7 @@
 *{
   margin: 0;
   padding: 0;
+  
 
 }
 
@@ -17,6 +18,8 @@ body{
   /* color: #777; */
   padding: 3rem;
   box-sizing: border-box;
+  
+  
 }
 .nav{
   /* background-color: #333;
@@ -80,11 +83,10 @@ body{
   
 }
 .info-section > .info-cards{
-  height: 30vh;
   width: 50%; 
 }
 .info-cards1{
-  display:inline-flex;
+  display:flex;
   height: 30vh;
   width: 100%;
   justify-content: space-between;
@@ -93,7 +95,7 @@ body{
 
 }
 .info-cards2{
-  display:inline-flex;
+  display:flex;
   height: 30vh;
   width: 100%;
   justify-content: space-between;
@@ -149,6 +151,50 @@ body{
   background-color:#002ead;
   transition: 0.7s;
 }
+
+.section-how{
+  padding: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.step-1{
+  width: 30%;
+  padding: 3rem;
+}
+
+
+.section-how > .step-1 > .btn-step1{
+  background-color: grey;
+  padding:1rem;
+  font-size: 2rem;
+  border-radius: .5rem;
+  font-weight: 800;
+
+}
+
+.section-how > .step-1 > h1{
+  font-size: 3rem;
+  padding-top: 2rem;
+  letter-spacing: .3rem;
+  
+}
+
+.section-how > .step-1 > p{
+  font-size: 2rem;
+  padding-top: 2rem;
+  line-height: 1.7;
+  
+}
+.section-3 h1{
+  text-align: center;
+  font-size: 4rem;
+}
+.section-3{
+  background-color:#55c57a;
+  padding-top: 4rem;
+  border-radius: 2rem;
+}
+
 
 
 
