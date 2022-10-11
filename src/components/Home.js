@@ -36,36 +36,149 @@ function Home() {
         </div>
       </div>
 
-
       <div className="section-3">
-      <h1>How Memories Group Cards Work</h1>
-      <div className="section-how">
-      <div className="step-1">
-      <button className="btn-step1">STEP 1</button>
-      <h1>Create A MemoryCard</h1>
-      <p>Start a digital group card for your recipient and add messages, photos, GIFs or videos.Start a digital group card for your recipient and add messages, photos, GIFs or videos.</p>
+        <h1>How Memories Group Cards Work</h1>
+        <div className="section-how">
+          <div className="step-1">
+            <button className="btn-step1">STEP 1</button>
+            <h1>Create A MemoryCard</h1>
+            <p>
+              Start a digital group card for your recipient and add messages,
+              photos, GIFs or videos.Start a digital group card for your
+              recipient and add messages, photos, GIFs or videos.
+            </p>
+          </div>
+
+          <div className="step-1">
+            <button className="btn-step1">STEP 2</button>
+            <h1>Invite Others</h1>
+            <p>
+              Invite others to add their contributions and watch the virtual
+              group card grow.
+            </p>
+          </div>
+
+          <div className="step-1">
+            <button className="btn-step1">STEP 3</button>
+            <h1>Deliver Appreciation</h1>
+            <p>
+              Deliver the group greeting card online, print it out, or play it
+              as a slideshow!
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div className="step-1">
-      <button className="btn-step1">STEP 2</button>
-      <h1>Invite Others</h1>
-      <p>Invite others to add their contributions and watch the virtual group card grow.</p>
-      </div>
+      <section className="section-tours">
+        <div className="u-center-text u-margin-bottom-big">
+          <h2 className="heading-secondary">Our plans</h2>
+        </div>
 
-      <div className="step-1">
-      <button className="btn-step1">STEP 3</button>
-      <h1>Deliver Appreciation</h1>
-      <p>Deliver the group greeting card online, print it out, or play it as a slideshow!</p>
-      </div>
-      
-      </div>
-      </div>
+        <div className="row">
 
 
-     
+          <div className="col-1-of-3">
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__picture card__picture--1">&nbsp;</div>
+                <h4 className="card__heading">
+                  <span className="card__heading-span card__heading-span--1"
+                    >Premium Package</span
+                  >
+                </h4>
+                <div className="card__details">
+                  <ul>
+                    <li>50 boards </li>
+                    <li>with up to 100 posts per board</li>
+                    <li>Unlimited Storage</li>
+                    
+                  </ul>
+                </div>
+              </div>
+
+              <div className="card__side card__side--back card__side--back-1">
+                <div className="card__cta">
+                  <div className="card__price-box">
+                    <p className="card__price-only">Only</p>
+                    <p className="card__price-value">$297</p>
+                  </div>
+                  <a href="/" className="btn btn--white">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          
+
+          <div className="col-1-of-3">
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__picture card__picture--2">&nbsp;</div>
+                <h4 className="card__heading">
+                  <span className="card__heading-span card__heading-span--2"
+                    >Business Plan</span
+                  >
+                </h4>
+                <div className="card__details">
+                  <ul>
+                    <li>Unlimited boards & posts </li>
+                    <li>Multiple Card creators</li>
+                    <li>Added access controls</li>
+                    <li>Tagging, Likes, & Comments</li>
+                    
+                  </ul>
+                </div>
+              </div>
+
+              <div className="card__side card__side--back card__side--back-2">
+                <div className="card__cta">
+                  <div className="card__price-box">
+                    <p className="card__price-only">Only</p>
+                    <p className="card__price-value">$497</p>
+                  </div>
+                  <a href="/" className="btn btn--white">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="col-1-of-3">
+            <div className="card">
+              <div className="card__side card__side--front">
+                <div className="card__picture card__picture--3">&nbsp;</div>
+                <h4 className="card__heading">
+                  <span className="card__heading-span card__heading-span--3"
+                    >Enterprise Plan</span
+                  >
+                </h4>
+                <div className="card__details">
+                  <ul>
+                    <li>Unlimited boards & posts from 501+ </li>
+                    <li>Bulk creation of boards</li>
+                    <li>Dedicated account manager
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+              <div className="card__side card__side--back card__side--back-3">
+                <div className="card__cta">
+                  <div className="card__price-box">
+                    <p className="card__price-only">Only</p>
+                    <p className="card__price-value">$897</p>
+                  </div>
+                  <a href="/" className="btn btn--white">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-
-    
   );
 }
 
